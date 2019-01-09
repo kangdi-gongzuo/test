@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>水果库</title>
+    <link rel="stylesheet" href="css/shuiguo01.css">
+    <script src="jquery/jquery-3.3.1.js"></script>
+</head>
+<body>
+    <div id="con">
+        <h3>水果后台管理系统</h3>
+        <label for="">图片地址：<input type="text" id="tpdz"> </label><br>
+        <label for="">物品简介：<input type="text" id="jianJie"> </label>
+        <span id="tishi2"></span><br>
+        <label for="">价格：<input type="text" id="pirce"> </label>
+        <span id="tishi"></span><br>
+        种类：<select name="" id="zhongLei">
+            <option value="a">请选择</option>
+            <option value="b">苹果</option>
+            <option value="c">橘子</option>
+            <option value="d">香蕉</option>
+        </select>
+        <button id="add">添加</button>
+    </div>
+    <img src="img/loading2.gif"  id="loading"/>
+    <table id="tab1">
+        <thead><tr>
+            <th>图片</th>
+            <th>简介</th>
+            <th>价格</th>
+            <th>种类</th>
+            <th>操作</th>
+        </tr></thead>
+    </table>
+</body>
+<script src="shuiguoku.js"></script>
+</html>

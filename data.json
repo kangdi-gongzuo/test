@@ -1,13 +1,1 @@
-{"_id":{"$oid":"5c33ecfc52917cef87574345"},"name":"aa","age":20.0,"sex":0.0}
-{"_id":{"$oid":"5c33ecfc52917cef87574346"},"name":"aa","age":30.0,"sex":1.0}
-{"_id":{"$oid":"5c33ecfc52917cef87574347"},"name":"bb","age":20.0,"sex":0.0}
-{"_id":{"$oid":"5c33ecfc52917cef87574348"},"name":"bb","age":40.0,"sex":1.0}
-{"_id":{"$oid":"5c33ecfc52917cef87574349"},"name":"cc","age":20.0,"sex":0.0}
-{"_id":{"$oid":"5c33ecfc52917cef8757434a"},"name":"dd","age":10.0,"sex":0.0}
-{"_id":{"$oid":"5c33f396c4a6706af5f43c08"},"name":"ee","age":22.0,"sex":0.0}
-{"_id":{"$oid":"5c33f3aec4a6706af5f43c09"},"name":"ff","age":25.0,"sex":1.0}
-{"_id":{"$oid":"5c33fd06c4a6706af5f43c0a"},"name":"aa","age":30.0,"sex":0.0}
-{"_id":{"$oid":"5c340035c4a6706af5f43c0b"},"name":"dad","age":50.0,"sex":0.0}
-{"_id":{"$oid":"5c340073c4a6706af5f43c0c"},"name":"eaae","age":60.0,"sex":1.0}
-{"_id":{"$oid":"5c34008ac4a6706af5f43c0d"},"name":"faa","age":28.0,"sex":1.0}
-{"_id":{"$oid":"5c34025dc4a6706af5f43c0e"},"name":"ff","age":33.0,"sex":1.0}
+[]

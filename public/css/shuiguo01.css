@@ -1,0 +1,15 @@
+#tab1{
+    width: 600px;
+    border-collapse: collapse;
+    text-align: center;
+}
+#tab1 td,#tab1 th{
+    border: solid 1px lightgray;
+    padding: 4px 0;
+}
+#con{
+    line-height: 1.8;
+}
+#tishi,#tishi2{
+    color: red;
+}
