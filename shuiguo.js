@@ -25,7 +25,7 @@ app.get("/",function (req,res) {
 })
 
 app.post("/addPost",urlencodeParser,luoji.addpost);
-app.get("/getData",function (req,res) {  });
+app.get("/getData",luoji.getdata);
 
 
 
