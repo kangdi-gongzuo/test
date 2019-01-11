@@ -24,8 +24,14 @@ app.get("/",function (req,res) {
     res.sendFile(__dirname+"/"+page2);
 })
 
+//水果库部分
 app.post("/addPost",urlencodeParser,luoji.addpost);
 app.get("/getData",luoji.getdata);
+app.post("/delpost",urlencodeParser,luoji.delpost)
+app.post("/qrxgpost",urlencodeParser,luoji.qrxgpost)
+
+
+//水果店部分
 
 
 

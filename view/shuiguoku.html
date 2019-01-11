@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>水果库</title>
-    <link rel="stylesheet" href="css/shuiguo01.css">
+    <link rel="stylesheet" href="shuiguo01.css">
     <script src="jquery/jquery-3.3.1.js"></script>
 </head>
 <body>
@@ -14,15 +14,18 @@
         <label for="">图片地址：<input type="text" id="tpdz"> </label><br>
         <label for="">物品简介：<input type="text" id="jianJie"> </label>
         <span id="tishi2"></span><br>
-        <label for="">价格：<input type="text" id="pirce"> </label>
+        <label for="">价格：<input type="number" id="pirce"> </label>
         <span id="tishi"></span><br>
+        <label for="">库存：<input type="number" id="kuCun"></label>
+        <span id="tishi3"></span><br>
         种类：<select name="" id="zhongLei">
             <option value="a">请选择</option>
-            <option value="b">苹果</option>
-            <option value="c">橘子</option>
-            <option value="d">香蕉</option>
+            <option value="b">冰箱</option>
+            <option value="c">电脑</option>
+            <option value="d">手机</option>
         </select>
         <button id="add">添加</button>
+        <button id="qrxg">确认修改</button>
     </div>
     <img src="img/loading2.gif"  id="loading"/>
     <table id="tab1">
@@ -30,9 +33,11 @@
             <th>图片</th>
             <th>简介</th>
             <th>价格</th>
+            <th>库存</th>
             <th>种类</th>
             <th>操作</th>
         </tr></thead>
+        <tbody></tbody>
     </table>
 </body>
 <script src="shuiguoku.js"></script>

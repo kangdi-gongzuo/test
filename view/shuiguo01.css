@@ -7,9 +7,13 @@
     border: solid 1px lightgray;
     padding: 4px 0;
 }
+#tab1 td img{
+    width: 60px;
+    height: 60px;
+}
 #con{
     line-height: 1.8;
 }
-#tishi,#tishi2{
+#tishi,#tishi2,#tishi3{
     color: red;
 }
