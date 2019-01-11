@@ -26,7 +26,7 @@ module.exports.addpost=function (req,res) {
                     res.send({err:0})
                     //将操作失败的信息2返回给前台
                 }else{
-                    console.log("28数据添加到mongodb成功",result);
+                    // console.log("28数据添加到mongodb成功",result);
                     console.log("29数据添加到mongodb成功",result.result);
                     res.send(result.result)
                     //7、关闭数据连接
@@ -79,19 +79,20 @@ module.exports.delpost=function (req,res) {
 module.exports.qrxgpost=function (req,res) {  
     var obj=req.body;
     console.log("82前台传过来的修改信息：",obj);
-    var id=mongodb.ObjectId(obj.id)
+    var id=mongodb.ObjectId(obj._id)
+    // var id=obj._id
     var whereObj={_id:id};
-    console.log("修改条件：",whereObj);
+    console.log("84修改条件：",whereObj);
     var qrxgObj={
         $set:obj
     }
-    console.log("修改后的数据",qrxgObj)
+    console.log("88修改后的数据",qrxgObj)
     db.updateOne(res,"goods",whereObj,qrxgObj,function (err,result,db) {  
         if (err) {
-            console.log("数据更改失败");
+            console.log("91数据更改失败");
             res.send({err:0})
         }else{
-            console.log("更改成功：",result.result);
+            console.log("94更改成功：",result.result);
             res.send(result.result);
             db.close();
         }

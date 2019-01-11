@@ -58,7 +58,7 @@ $(function () {
                 jianjie:jianJie,
                 pirce:pirce,
                 zhongLei:$("#zhongLei").val(),
-                id:tempId
+                _id:tempId
             }
             $.post(myurl,obj,function (data) {  
                 console.log("添加返回的数据：",data)
